@@ -24,6 +24,6 @@ set shortmess=atI
 set t_Co=256
 colorscheme desert
 
-hi LineNr ctermfg=243 ctermbg=235 cterm=NONE
+hi LineNr ctermfg=245 ctermbg=235 
 set cursorline
 hi CursorLine ctermbg=235 cterm=NONE guibg=Grey40
