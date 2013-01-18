@@ -1,8 +1,9 @@
 set tabstop=2
-se softtabstop=2
+set softtabstop=2
 set autoindent
 set expandtab
 set shiftwidth=2
+
 autocmd FileType make set noexpandtab
 
 if has("autocmd")
@@ -21,5 +22,8 @@ set autochdir
 set shortmess=atI
 
 set t_Co=256
-colorscheme distinguished
+colorscheme desert
 
+hi LineNr ctermfg=243 ctermbg=235 cterm=NONE
+set cursorline
+hi CursorLine ctermbg=235 cterm=NONE guibg=Grey40
