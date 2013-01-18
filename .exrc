@@ -19,6 +19,7 @@ set background=light
 set showmatch
 set autochdir
 set shortmess=atI
-set cursorline
 
-hi CursorLine   cterm=NONE ctermbg=darkgray ctermfg=cyan guibg=darkgray guifg=cyan
+set t_Co=256
+colorscheme distinguished
+
