@@ -11,3 +11,14 @@ endif
 
 filetype plugin on
 set ofu=syntaxcomplete#Complete
+
+set number
+
+set nolinebreak
+set background=light
+set showmatch
+set autochdir
+set shortmess=atI
+set cursorline
+
+hi CursorLine   cterm=NONE ctermbg=darkgray ctermfg=cyan guibg=darkgray guifg=cyan
