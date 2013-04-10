@@ -6,7 +6,7 @@ ln_file()
   file_name=`basename $1`
   dst_dir=$2
   dst_file=${dst_dir}/${file_name}
-  if [ -s ${dst_file} ];then
+  if [ -L ${dst_file} ];then
     rm -vf ${dst_file}
   fi
   ln -s ${src} ${dst_file}
