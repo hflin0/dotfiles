@@ -15,5 +15,12 @@
 	st = status
 	co = checkout
 	ci = commit
+  l = log --oneline --decorate -13
+  ll = log --oneline --decorate
+  co = checkout
+  br = branch
+  rb = rebase
+  dci = dcommit
+
 [core]
 	editor = vim
