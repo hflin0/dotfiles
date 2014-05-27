@@ -1,8 +1,8 @@
 [http]
-  proxy=%http_proxy%
+  #proxy=%http_proxy%
 
 [https]
-  proxy=%https_proxy% 
+  #proxy=%https_proxy% 
 
 [user]
 	name = Hafid Lin
