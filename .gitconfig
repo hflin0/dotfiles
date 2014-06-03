@@ -1,21 +1,23 @@
 [http]
   #proxy=%http_proxy%
-  #proxy=http://87.254.212.121:8080
+  proxy=http://87.254.212.121:8080
   sslVerify=false
 
 [https]
   #proxy=%https_proxy%
-  #proxy=http://87.254.212.121:8080
+  proxy=http://87.254.212.121:8080
 
 
 [user]
 	name = Hafid Lin
 	email = hafid.lin@nsn.com
 [github]
-	user = duaiqh
+	user = hafid-lin
 [push]
 	default = current
 [alias]
 	st = status
 	co = checkout
 	ci = commit
+[core]
+	editor = vim
