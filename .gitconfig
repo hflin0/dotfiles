@@ -1,16 +1,12 @@
 [http]
-  #proxy=%http_proxy%
-  proxy=http://87.254.212.121:8080
-  sslVerify=false
+  proxy=%http_proxy%
 
 [https]
-  #proxy=%https_proxy%
-  proxy=http://87.254.212.121:8080
-
+  proxy=%https_proxy% 
 
 [user]
 	name = Hafid Lin
-	email = hafid.lin@nsn.com
+  email = hafid-lin@users.noreply.github.com 
 [github]
 	user = hafid-lin
 [push]
