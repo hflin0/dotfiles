@@ -1,16 +1,12 @@
 [http]
   #proxy=%http_proxy%
-  proxy=http://87.254.212.121:8080
-  sslVerify=false
 
 [https]
-  #proxy=%https_proxy%
-  proxy=http://87.254.212.121:8080
-
+  #proxy=%https_proxy% 
 
 [user]
 	name = Hafid Lin
-	email = hafid.lin@nsn.com
+  email = hafid-lin@users.noreply.github.com 
 [github]
 	user = hafid-lin
 [push]
@@ -19,5 +15,12 @@
 	st = status
 	co = checkout
 	ci = commit
+  l = log --oneline --decorate -13
+  ll = log --oneline --decorate
+  co = checkout
+  br = branch
+  rb = rebase
+  dci = dcommit
+
 [core]
 	editor = vim

@@ -14,6 +14,6 @@ ln_file()
 
 ln_file .exrc ~/
 ln_file .vim ~/
-ln_file .git ~/
+#ln_file .git ~/
 ln_file .gitconfig ~/
 ln_file .tmux.conf ~/
