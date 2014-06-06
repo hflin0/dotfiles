@@ -7,9 +7,9 @@ fi
 
 # User specific aliases and functions
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-alias vi=vim
-export EDITOR=/usr/bin/vim
-
-unset command_not_found_handle
+if [ -f /etc/bash_completion.d/git ];then
+  source /etc/bash_completion.d/git
+  export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\]'
+fi
