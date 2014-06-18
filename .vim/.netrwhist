@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/hafid/.rvm/gems/ruby-1.9.3-p327/gems/cucumber-1.2.1/examples/sinatra/features/step_definitions'
 let g:netrw_dirhist_2='/home/hafid/Dropbox/honeycomb/lib/pete'
 let g:netrw_dirhist_3='/home/hafid/tmp/calculator/features'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/hafid/.rvm/gems/ruby-1.9.3-p327/gems/rake-10.0.3/li
 let g:netrw_dirhist_5='/home/hafid/.rvm/gems/ruby-1.9.3-p327/gems/aruba-0.5.1/lib/aruba/cucumber'
 let g:netrw_dirhist_6='/home/hafid/.rvm/gems/ruby-1.9.3-p327/gems/aruba-0.5.1/lib/aruba'
 let g:netrw_dirhist_7='/home/hafid/Dropbox/honeycomb/lib/honeycomb'
+let g:netrw_dirhist_8='/home/hafid/work/sinatra-boilerplate/app'
