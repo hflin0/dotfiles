@@ -27,3 +27,4 @@ colorscheme desert
 hi LineNr ctermfg=245 ctermbg=235 
 set cursorline
 hi CursorLine ctermbg=235 cterm=NONE guibg=Grey40
+syntax on
