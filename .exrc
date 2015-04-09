@@ -3,6 +3,7 @@ set softtabstop=4
 set autoindent
 set expandtab
 set shiftwidth=4
+set mouse=a
 
 autocmd FileType make set noexpandtab
 
