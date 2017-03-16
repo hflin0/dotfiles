@@ -4,11 +4,17 @@ set autoindent
 set expandtab
 set shiftwidth=4
 "set mouse=a
+set modeline
+set modelines=5
 
 autocmd FileType make set noexpandtab
 
 if has("autocmd")
   filetype indent on
+endif
+
+if has("autochdir")
+    set autochdir
 endif
 
 filetype plugin on
