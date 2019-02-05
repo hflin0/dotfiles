@@ -30,7 +30,7 @@
     trustExitCode = true
 [user]
     name = Hafid Lin
-    email = hafid.lin@gmail.com
+	email = hafid.lin@qq.com
 
 [core]
     excludesfile = ~/.gitignore_global
