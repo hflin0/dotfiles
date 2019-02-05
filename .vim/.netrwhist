@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/haifenglin/works/2016/03/ng-bizui/branches/2.1/src'
-let g:netrw_dirhist_2='/Users/haifenglin/works/2016/03/ng-bizui/branches/2.1/src/footer'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/haifenglin/works/2018/floweditor'
+let g:netrw_dirhist_2='/home/hflin/works/corntree/n1.0.0/server/skynet/skynet-src'
+let g:netrw_dirhist_3='/home/hflin/works/corntree/n1.0.0/server/tmp'
+let g:netrw_dirhist_4='/home/hflin/works/corntree/n1.0.0/server/gameserver'

@@ -9,11 +9,10 @@ ln_file()
   if [ -L ${dst_file} ];then
     rm -vf ${dst_file}
   fi
-  ln -s ${src} ${dst_file}
+  ln -svf ${src} ${dst_file}
 }
 
-ln_file .exrc ~/
+ln_file .vimrc ~/
 ln_file .vim ~/
-#ln_file .git ~/
 ln_file .gitconfig ~/
 ln_file .tmux.conf ~/
