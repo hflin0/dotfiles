@@ -135,4 +135,5 @@ hi LineNr ctermfg=245 ctermbg=235
 "set background=dark
 set encoding=utf-8
 
-
+" Force saving files that require root permission 
+cnoremap w!! w !sudo tee > /dev/null %
