@@ -11,6 +11,7 @@ syntax on
 
 autocmd FileType make set noexpandtab
 autocmd FileType python setlocal et sta sw=4 sts=4
+autocmd FileType yaml setlocal et sta sw=2 sts=2
 "tab显示为红色
 autocmd FileType python match ErrorMsg /\s*\t/
 "autocmd FileType javascript set sw=2
