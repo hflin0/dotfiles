@@ -35,7 +35,7 @@ execute pathogen#infect()
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 
-set number
+set nonumber
 set ruler
 
 set nolinebreak
@@ -57,27 +57,6 @@ colorscheme desert
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 " 退出粘贴模式
 au InsertLeave * set nopaste
-
-auto BufNewFile *.py call PythonHeader()
-func PythonHeader()
-    call setline(1, "#!/usr/bin/env python")
-    call append(1, "# -*- coding: utf-8 -*-")
-    call append(2, "")
-    "call append(3, "from __future__ import unicode_literals")
-    "call append(4, "from __future__ import absolute_import")
-endf
-
-auto BufNewFile *.vue call VueInit()
-func VueInit()
-    call append(1, "<template>")
-    call append(2, "</template>")
-    call append(3, "")
-    call append(4, "<script>")
-    call append(5, "</script>")
-    call append(6, "")
-    call append(7, "<style>")
-    call append(8, "</style>")
-endf
 
 noremap <F1> <Esc>
 noremap <F2>  :set number!<CR>

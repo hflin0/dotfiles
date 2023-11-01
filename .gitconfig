@@ -21,16 +21,6 @@
 
 [core]
     editor = vim
-    excludesfile = /Users/haifenglin/.gitignore
-[difftool "sourcetree"]
-    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-    path = 
-[mergetool "sourcetree"]
-    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-    trustExitCode = true
-[user]
-    name = Hafid Lin
-	email = hafid.lin@qq.com
 
 [core]
     excludesfile = ~/.gitignore_global
