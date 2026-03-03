@@ -16,6 +16,7 @@ autocmd FileType yaml setlocal et sta sw=2 sts=2
 autocmd FileType python match ErrorMsg /\s*\t/
 "autocmd FileType javascript set sw=2
 "autocmd FileType vue set sw=2
+autocmd FileType json setlocal conceallevel=0
 "
 set tags=./tags;/
 
@@ -91,6 +92,8 @@ set showcmd         " 输入的命令显示出来，看的清楚些
 let g:NERDTreeDirArrows = 1
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
+let g:indentLine_setConceal = 0
+
 "let g:NERDTreeGlyphReadOnly = "RO"
 "let g:NERDTreeNodeDelimiter = "#"
 "
@@ -116,3 +119,4 @@ set encoding=utf-8
 
 " Force saving files that require root permission 
 cnoremap w!! w !sudo tee > /dev/null %
+autocmd FileType json setlocal conceallevel=0
