@@ -46,7 +46,7 @@ set shortmess=atI
 set shiftround
 
 set t_Co=256
-colorscheme desert
+"colorscheme desert
 
 "set cursorline
 "hi CursorLine ctermbg=235 cterm=NONE guibg=Grey40
